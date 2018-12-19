@@ -2,7 +2,7 @@
 Pose Library for production
 	    
 This is a pose library tool for animation work.	
-It is Pyside2 version of Subin Gopi's work for Maya2017+.
+It is Pyside2 version of Subin Gopi's work for Maya2017+.		
 Before using the script, you need to make true that your maya setup is OK.		    
 You can use it to export, import and rename pose. For management, you can create, expand, collapse and remove pose library folder.		
 
