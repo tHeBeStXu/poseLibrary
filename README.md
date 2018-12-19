@@ -1,9 +1,9 @@
 # poseLibrary
 Pose Library for production
 	    
-This is a pose library tool for animation work.	
-It is Pyside2 version of Subin Gopi's work for Maya2017+.	
-Before using the script, you need to make true that your maya setup is OK.		    
+This is a pose library tool for animation work.	        
+It is Pyside2 version of Subin Gopi's work for Maya2017+.All IPs are belong to Subin Gopi and thank his great tutorials.    
+Before using the script, you need to make true that your maya setup is OK.       		    
 You can use it to export, import and rename pose. For management, you can create, expand, collapse and remove pose library folder.		
 
 # How to install:
@@ -15,7 +15,7 @@ Dir = 'X:\WHERE\YOU\PUT\THE\FILE'
 import sys		
 
 if Dir not in sys.path:		
-				sys.path.append(r'X:\WHERE\YOU\PUT\THE\FILE')      
+    sys.path.append(r'X:\WHERE\YOU\PUT\THE\FILE')      
   
 import PoseLibrary    
 from PoseLibrary.UI import UI    
