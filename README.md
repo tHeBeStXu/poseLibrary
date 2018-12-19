@@ -1,4 +1,4 @@
-# poseLibrary
+# Pose Library for production
 Pose Library for production
 	    
 This is a pose library tool for animation work.	        
