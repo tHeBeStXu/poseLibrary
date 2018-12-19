@@ -1,7 +1,8 @@
 # poseLibrary
 Pose Library for production
 	    
-This is a pose library tool for animation work.		    
+This is a pose library tool for animation work.	
+It is Pyside2 version of Subin Gopi's work for Maya2017+.
 Before using the script, you need to make true that your maya setup is OK.		    
 You can use it to export, import and rename pose. For management, you can create, expand, collapse and remove pose library folder.		
 
@@ -16,14 +17,14 @@ import sys
 if Dir not in sys.path:		
 				sys.path.append(r'X:\WHERE\YOU\PUT\THE\FILE')      
   
-import CustomProceduralRigTool    
-from CustomProceduralRigTool import Main_UI as Main_UI    
-reload(Main_UI)    
+import PoseLibrary    
+from PoseLibrary.UI import UI    
+reload(UI)    
     
-UI = Main_UI.RiggingMainUI(dock=1)    
+ui = UI.MainUI()    
 
 # How to use:
-I will record a video for using this script. To be continued...    
+You can go to Subin Gopi's web: https://vimeo.com/user55256190 for further exploring.		
 
 # Bugs:
 If you find any type of bugs, please e-mail me at: razer_mamba@qq.com.    
