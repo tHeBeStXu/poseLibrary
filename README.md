@@ -27,6 +27,6 @@ ui = UI.MainUI()
 You can go to Subin Gopi's web: https://vimeo.com/user55256190 for further exploring.		
 
 # Bugs:
-If you find any type of bugs, please e-mail me at: razer_mamba@qq.com.    
+If you find any type of bugs, please e-mail me at: 328665042@qq.com.    
     
 If you like, please STAR this repository. Thank you very much.    
